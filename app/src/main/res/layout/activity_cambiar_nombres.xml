@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CambiarNombresActivity">
+
+    <TextView
+        android:id="@+id/tvChangeName"
+        android:layout_width="312dp"
+        android:layout_height="83dp"
+        android:text="@string/change_names_title"
+        android:textAlignment="center"
+        android:textIsSelectable="false"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="368dp"
+        android:layout_height="548dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvChangeName"
+        app:layout_constraintVertical_bias="0.149">
+
+        <TextView
+            android:id="@+id/tvFistName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_names_first"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvVacio8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/void_char"
+            android:textSize="48sp"
+            tools:text="@string/void_char" />
+
+        <EditText
+            android:id="@+id/etName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/log_name"
+            android:inputType="text"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvVacio5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/void_char"
+            android:textSize="60sp"
+            tools:text="@string/void_char" />
+
+        <TextView
+            android:id="@+id/tvSecondName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_names_second"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvVacio7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/void_char"
+            android:textSize="48sp"
+            tools:text="@string/void_char" />
+
+        <EditText
+            android:id="@+id/etName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/log_name"
+            android:inputType="text"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvVacio6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/void_char"
+            android:textSize="60sp"
+            tools:text="@string/void_char" />
+
+        <Button
+            android:id="@+id/btnCambiar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="CambiarNombres"
+            android:text="@string/change_names" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

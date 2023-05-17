@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">facultad_Ejemplo</string>
+    <string name="titulo">Charla entre dos Personas</string>
+    <string name="change_names">Cambiar Nombres</string>
+    <string name="talk_title">Escribe algun mensaje: Persona 2</string>
+    <string name="send">Enviar</string>
+    <string name="talk_me">Di algunas palabras</string>
+    <string name="answer">Esperando Respuesta</string>
+    <string name="answer_title">Mensaje Respuesta: Persona 1</string>
+    <string name="void_char"> </string>
+    <string name="expected_response">Respuesta esperada</string>
+    <string name="change_names_title">Cambie por los nombres que desee</string>
+    <string name="change_names_first">Cambie el Primer Nombre</string>
+    <string name="change_names_second">Cambie el Segundo Nombre</string>
+    <string name="log_name">Ingrese un Nombre</string>
+
+</resources>
