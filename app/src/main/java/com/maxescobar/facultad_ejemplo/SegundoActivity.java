@@ -30,14 +30,14 @@ public class SegundoActivity extends AppCompatActivity {
             Intent cambioCompleto = getIntent();
             Bundle misExtras = cambioCompleto.getExtras();
             if(misExtras != null){
-                String nombre1 = misExtras.getString("primer_nombre");
-                String nombre2 = misExtras.getString("segundo_nombre");
+                nombreA = misExtras.getString("primer_nombre");
+                nombreB = misExtras.getString("segundo_nombre");
                 //Revisamos si alguien respondio
                 String respuesta = misExtras.getString("mensaje");
                 //Logica simple
-                if (nombre1 != null && nombre2 != null){
-                    tvHablarResp.setText("Escribe algun mensaje:" + nombre1);
-                    tvResp.setText("Mensaje Respuesta:" + nombre2);
+                if (nombreA != null && nombreB != null){
+                    tvHablarResp.setText("Escribe algun mensaje:" + nombreA);
+                    tvResp.setText("Mensaje Respuesta:" + nombreB);
                 }
                 if(!respuesta.isEmpty()){
                     if (respuesta.isEmpty()){
